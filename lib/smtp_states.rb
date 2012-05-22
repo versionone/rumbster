@@ -94,7 +94,7 @@ class ReadMailState
     @protocol.new_message_received(message)
     ok(io)
 
-    :quit
+    :connected
   end
 
   def read_message(io)
